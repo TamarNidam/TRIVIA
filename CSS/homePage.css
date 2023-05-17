@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(92, 96, 105);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    text-align: center
+}
+#logo{
+    width: 530px;
+    height:300px ;
+}
+img{
+    width: 200px;
+    height: 150px;
+}
+
+#herfs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1{
+    text-align: center;
+    font-size:5em;
+    margin: 5%;
+}
+.type_trivia{
+  
+    color: rgb(249, 188, 0);
+    font-size: 30px;
+}
+
+.games.permit:hover{    
+    opacity:80%;
+    border: 3.5px solid  rgb(37, 37, 39);
+    border-radius: 4%;
+    box-shadow: 1px 1px 2px black
+}
+.games{    
+    width: 240px;
+    /* height: 170px; */
+    opacity:0.5;
+    padding: 5px;
+    border: 3.5px solid  transparent;
+}
+
+.games.permit{
+    opacity: 1;
+}
+a{
+    text-decoration: none;
+}
+.type_detailes{
+    font-size: 0.5cm;
+    color: rgb(249, 188, 0);
+}
+#entery{
+    margin-top: 10% ;
+    
+}
+#links{
+    font-size:2em;
+  
+    border-radius: 4px;
+    background-color: rgb(249, 188, 0);
+    color:rgb(92, 96, 105) ;
+}

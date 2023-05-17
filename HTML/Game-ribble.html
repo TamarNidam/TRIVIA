@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>משחקי טרוויה-הגיון</title>
+    <link rel="stylesheet" href="../CSS/game.css">
+</head>
+
+<body dir="rtl">
+    <audio src="../Media/מעבר.wav" id="two"></audio>
+    <div id="body">
+        <div class="c_question">
+            <div id="timer">0:00</div>
+            <div id="id_q">
+                <div class="q"> </div>
+            </div>
+
+            <div class="c_ans">
+                <div class="ans" onclick="onClick()"></div>
+                <div class="ans" onclick="onClick()"></div>
+                <div class="ans" onclick="onClick()"></div>
+                <div class="ans" onclick="onClick()"></div>
+
+
+            </div>
+            <div class="ans" onclick="onClick()" id="no"></div>
+        </div>
+        <div id="gameboard">
+
+        </div>
+        <div id="score">
+
+                <audio src="../Media/סיום משחק.wav" id="end_game"></audio>
+        </div>
+    </div>
+    <script src="../JS/Game-ribble.js"></script>
+
+</body>
+
+</html>

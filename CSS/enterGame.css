@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(92, 96, 105);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    text-align: center;
+}
+
+#id_logo{
+   text-align: right;
+}
+
+#logo{
+    width: 20%;
+ 
+}
+
+p{
+    color: rgb(249, 188, 0);
+    font-size: 70px;
+}
+
+input{
+    font-size: 2em;
+    background-color:rgb(249, 188, 0) ;
+    color: rgb(92, 96, 105);
+}
